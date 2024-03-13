@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.booking{
+    background-image: url(img/bg_6.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    background-color: rgba(233, 145, 3, 0.456);
+    background-blend-mode: luminosity;
+}
+
+.booking-text{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.booking-text h1{
+    font-size: 50px;
+    color:white;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.booking-text p{
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.booking-text input{
+    padding: 8px 6px;
+    font-size: 18px;
+    text-transform: capitalize;
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px;
+    background-color: rgba(0, 0, 0, 0.414);
+    color: #fff;
+    border: 1px solid #00000000;
+}
+
+.booking-text select{
+    padding: 10px 6px;
+    font-size: 18px;
+    text-transform: capitalize;
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px;
+    background-color: rgba(0, 0, 0, 0.414);
+    color: #fff;
+}
+
+.booking-text select option{
+    background-color: rgba(0, 0, 0, 0.414);
+    color: #fff;
+    padding: 10px 6px;
+    font-size: 18px;
+    text-transform: capitalize;
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px;
+    background-color: rgba(0, 0, 0, 0.414);
+}
+
+.booking-text textarea{
+    padding: 8px 6px;
+    font-size: 18px;
+    text-transform: capitalize;
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px;
+    background-color: rgba(0, 0, 0, 0.414);
+    color: #fff;
+}
+
+.booking-text a{
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.947);
+    color: #fff;
+    padding: 8px 24px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.booking-text a:hover{
+    background-color: red;
+    color: #fff;
+}
+
+input:focus-visible{
+    outline: 0 !important;
+}
+
+select:focus-visible{
+    outline: 0 !important;
+}
+
+textarea:focus-visible{
+    outline: 0 !important;
+}
